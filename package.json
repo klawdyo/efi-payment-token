@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage",
     "lint:list": "eslint */**/*.js --fix",
     "format": "prettier --write \"./**/*.{js,ts,json}\""
