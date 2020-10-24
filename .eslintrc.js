@@ -59,7 +59,6 @@ module.exports = {
     semi: ['error', 'never'],
     'sort-imports': 'off',
     'no-unused-expressions': 'off',
-    'babel/no-unused-expressions': 'error',
     quotes: ['error', 'single', { avoidEscape: true }],
     '@typescript-eslint/ban-types': 'error',
   },
@@ -79,5 +78,5 @@ module.exports = {
       },
     },
   ],
-  plugins: ['no-only-tests', '@typescript-eslint', 'babel'],
+  plugins: ['no-only-tests', '@typescript-eslint'],
 }
