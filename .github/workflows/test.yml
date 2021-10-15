@@ -33,3 +33,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Runs Unit Tests
         run: yarn test
+
+      # Runs a set of commands using the runners shell
+      - name: Build typescript code
+        run: yarn build
