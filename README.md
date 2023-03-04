@@ -8,8 +8,8 @@ Gera o token de pagamento de cartão de crédito para usar nas transações
 # 1) Instale as dependências
 yarn add jsencrypt
 
-# 2) Copie o arquivo index.ts e use
-
+# 2) Copie a pasta src e use
+# 3) Não use em um servidor. Os dados de cartão de crédito não devem sair da sua interface para sua API.
 ```
 
 ## Configuração
