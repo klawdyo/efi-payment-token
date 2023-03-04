@@ -154,5 +154,8 @@ const { paymentToken, cardMask } = await usePaymentToken(payeeCode, creditCard)
 ### Passo a passo para conseguir o identificador de conta
 
 - Passo 1
+![image](https://user-images.githubusercontent.com/100168/222927272-bf9233ef-015b-4a46-ba7c-a5bceacd175c.png)
 
 - Passo 2
+![image](https://user-images.githubusercontent.com/100168/222927281-3ee2319d-7bbe-4966-879d-7559d20b871f.png)
+
