@@ -144,7 +144,7 @@ const { paymentToken, cardMask } = await usePaymentToken(payeeCode, creditCard)
 
 ## Referências
 
-- [Como conseguir o token de pagamento]()
+- [Como conseguir o token de pagamento](https://dev.gerencianet.com.br/docs/pagamento-com-cartao#11-obten%C3%A7%C3%A3o-do-payment_token)
 - [Usar proxy com React](https://www.youtube.com/watch?v=N4yUiQiTvwU&ab_channel=SamMeech-Ward)
 - [Configuração do nuxt2](https://stackoverflow.com/a/66368519)
 - [vitordesousa/vue2-gerencianet](https://github.com/vitordesousa/vue2-gerencianet.git)
