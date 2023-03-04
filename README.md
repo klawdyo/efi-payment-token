@@ -6,7 +6,7 @@ Gera o token de pagamento de cartão de crédito para usar nas transações
 
 ```sh
 # 1) Instale as dependências
-yarn add axios jsencrypt
+yarn add jsencrypt
 
 # 2) Copie o arquivo index.ts e use
 
@@ -128,6 +128,8 @@ export default defineNuxtConfig({
 
 ## Como usar
 
+- Consiga o seu identificador de conta `payeeCode`.
+
 ```ts
 // Seu código de cliente.
 const payeeCode = '01234567890abcdef01234567890'
@@ -148,3 +150,9 @@ const { paymentToken, cardMask } = await usePaymentToken(payeeCode, creditCard)
 - [Usar proxy com React](https://www.youtube.com/watch?v=N4yUiQiTvwU&ab_channel=SamMeech-Ward)
 - [Configuração do nuxt2](https://stackoverflow.com/a/66368519)
 - [vitordesousa/vue2-gerencianet](https://github.com/vitordesousa/vue2-gerencianet.git)
+
+### Passo a passo para conseguir o identificador de conta
+
+- Passo 1
+
+- Passo 2
