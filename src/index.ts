@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import { JSEncrypt } from 'jsencrypt/lib/JSEncrypt'
-import { CardRequest } from '_interfaces/card-request.interface'
-import { CardToken } from '_interfaces/card-token.interface'
+import { CardRequest } from './_interfaces/card-request.interface'
+import { CardToken } from './_interfaces/card-token.interface'
 
 export class Efi {
   /**
@@ -62,11 +62,15 @@ export class Efi {
       headers,
     })
 
-    const { data } = await result.json()
+    const json = await result.json()
+
+    if (json.error) {
+      throw new Error(json.error_description)
+    }
 
     return {
-      cardMask: data.card_mask,
-      paymentToken: data.payment_token,
+      cardMask: json.data.card_mask,
+      paymentToken: json.data.payment_token,
     }
   }
 }
