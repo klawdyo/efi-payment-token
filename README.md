@@ -2,6 +2,12 @@
 
 Gera o token de pagamento de cartão de crédito para usar nas transações
 
+## 📛 Atenção 📛
+
+### 📛📛📛📛 Esta é uma biblioteca não oficial. Funciona para o meu caso de uso, o que não significa que funcionará para o seu. 
+### 📛📛📛📛 Caso dê problema, estude o código e resolva. Não abra issues com reclamação. 
+### 📛📛📛📛 Este biblioteca é fornecida como está. Use-a por sua conta e risco.
+
 ## Instalação
 
 ```sh
