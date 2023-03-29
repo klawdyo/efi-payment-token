@@ -129,6 +129,9 @@ export default defineNuxtConfig({
 })
 ```
 
+### Angular
+- [Curso Angular #138: Http: Removendo CORS com Angular Proxy](https://www.youtube.com/watch?v=D9oFe6rHjpY&ab_channel=LoianeGroner)
+
 > **Observações**: Para outros sistemas, pesquisar como aplicar proxy em suas configurações.
 
 ## Como usar
